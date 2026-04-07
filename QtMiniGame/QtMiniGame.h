@@ -15,6 +15,7 @@
 #include <QSqlError>
 
 #include "UserLogInData.h"
+
 //#include <algorithm>
 
 
@@ -82,7 +83,7 @@ private:
     QTimer* m_reveal_timer = nullptr;
     QVector<QPushButton*> m_reveal_list;
     int m_reveal_index = 0;
-    int m_reveal_iterval_ms = 1; // tweak for speed
+    int m_reveal_interval_ms = 1; // tweak for speed
 
     // QIcon 
     QIcon m_icon_1_red_flag;

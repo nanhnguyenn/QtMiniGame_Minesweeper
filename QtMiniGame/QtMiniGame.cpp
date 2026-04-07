@@ -98,7 +98,7 @@ QtMiniGame::QtMiniGame(QWidget* parent)
 		});
 
 	m_reveal_timer = new QTimer(this);
-	m_reveal_timer->setInterval(m_reveal_iterval_ms);
+	m_reveal_timer->setInterval(m_reveal_interval_ms);
 	connect(m_reveal_timer, &QTimer::timeout, this, [=]() {
 		if (m_reveal_index >= m_reveal_list.size()) {
 			m_reveal_timer->stop();

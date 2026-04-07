@@ -74,7 +74,7 @@ public:
         line->setStyleSheet("color: #696969;");
         return line;
     }
-
+    
 private slots:
     void clickSignIn();
     void clickCreate();
